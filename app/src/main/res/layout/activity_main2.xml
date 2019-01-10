@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C4359"
+    tools:context="com.coldflames.tictactoe.Main2Activity">
+
+    <ImageView
+        android:id="@+id/tic_tac_toe"
+        android:layout_width="332dp"
+        android:layout_height="334dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tic_tac_toe"
+        android:elevation="4dp" />
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_alignBottom="@+id/tic_tac_toe"
+        android:layout_alignEnd="@+id/tic_tac_toe"
+        android:layout_alignRight="@+id/tic_tac_toe"
+        android:layout_marginBottom="119dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/play_button"
+        android:elevation="4dp" />
+
+
+
+
+
+</RelativeLayout>
